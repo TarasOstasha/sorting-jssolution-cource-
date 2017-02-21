@@ -1,0 +1,16 @@
+h1 {
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+img {
+	width: 100%;
+}
+
+.btnSuccess {
+	margin: 40px!important;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+}
