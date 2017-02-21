@@ -8,14 +8,59 @@
 	<title>Sort</title>
 </head>
 <body>
-<div class="title">
-	<h1>Welcome to sorting station</h1>
-	<img src="images/sort.jpg" alt="">
+<div class="container">
+	<div class="title">
+		<h1>Welcome to sorting station</h1>
+		<img class="sortImg" src="images/sort.jpg" alt="">
+		<h3>Нажміть кнопку для того що відсортувати масив чисел 
+			<br>
+			<strong>1, 1000, 30000, 550, 6, 100, 51, 10, 1000000</strong>
+		</h3>
+		<h4>bubbleSort</h4>
+	</div>
+
+	<button type="button" class="btn btn-success btnSuccess">Success(bubbleSort)</button>
+	<br>
+	<h3>Insertion Sort</h3>
+	<br>
+	<div class="table__changes">
+		<h4>before</h4>
+		<br>
+		<table class="table table-bordered table-hover" id="before">
+		  	<thead>
+			    <tr class="active">
+			      <th>First Name</th>
+			      <th>City</th>
+			      <th>Country</th>
+			      <th>Zip code</th>
+			    </tr>
+		  	</thead>
+		  	<tbody>
+		    
+		  	</tbody>
+		</table>
+	</div>
+
+	<button id="btnsort" type="button" class="btn btn-success btnsort">Success(Insertion Sort)</button>
+
+	<div class="table__changes">
+		<h4>after</h4>
+		<br>
+		<table class="table" id="after">
+	  	<thead>
+	    <tr>
+	      <th>First Name</th>
+	      <th>City</th>
+	      <th>Country</th>
+	      <th>Zip code</th>
+	    </tr>
+	  	</thead>
+	  	<tbody>
+	    
+	  	</tbody>
+		</table>
+	</div>
 </div>
-<button type="button" class="btn btn-success btnSuccess">Success</button>
-
-
-
 
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
